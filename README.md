@@ -24,3 +24,4 @@ A BREAKING CHANGE can be part of commits of any <em>type</em>.</li>
 </ol>
 
 "
+Student: Jorge Ricardo Teran Sosa
