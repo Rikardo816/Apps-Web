@@ -1,6 +1,9 @@
 # Apps-Web
+
 This repository has all activities realized during apps web course.
+
 Code: ISWD63
+
 Professor: ORDOÑEZ CALERO HERNAN DAVID
 
 This project includes the basic ruler of conventional commit, you can read more about that doing click [here.](https://www.conventionalcommits.org/en/v1.0.0/)
