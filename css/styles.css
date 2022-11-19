@@ -1,0 +1,94 @@
+/* CSS define una serie de terminos que permiten describir ycada una de las partes que componen los estilos CascadaStyleSheet */
+
+/* Selector Universal */
+* {
+  margin: 0;
+  top: 0;
+}
+
+/* Selector de Etiqueta */
+body {
+  background-color: #041c32;
+  color: #ecb365;
+}
+
+header {
+  background-color: #064663;
+}
+
+nav {
+  font-size: 25px;
+}
+
+footer {
+  text-align: center;
+  background-color: #04293a;
+}
+
+/* Selector descendente elementos dentro de otros */
+article {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: green;
+}
+
+article span {
+  color: red;
+}
+
+article span a {
+  color: black;
+  text-decoration: none;
+  background-color: blueviolet;
+  border-bottom: #041c32;
+  border-radius: 15px;
+  font-size: 50px;
+}
+
+/* Selector de Clase */
+.destacado {
+  color: red;
+  font-weight: bold;
+  background: #ecb365;
+}
+
+.error {
+  background: red;
+  color: white;
+}
+
+.alerta {
+  color: black;
+  padding: 5px;
+  border: 5px solid red;
+  background: white;
+}
+
+/* Selector por id */
+#destacado {
+  background-color: coral;
+}
+
+div #destacado {
+  background: green;
+}
+
+/* Combinacion de selectores */
+/* .destacado .alerta .error { } */
+
+/* UNIDADES DE MEDIDA
+
+in pulgadas
+cm centrimetros
+mm milimetros
+pt puntos
+pc picas
+
+Unidaes Relativas
+em relativa al tamaño de la letra
+ex respecto a la altura de la letra x
+px respecto a la pantalla del dispositivo
+
+Porcentajes
+
+*/
