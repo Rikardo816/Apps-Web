@@ -1,51 +1,54 @@
 /* reset de todas las etiquetas */
 
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
 #general {
-    width: 960px;
-    margin: 0px auto; /*centrar*/
-    margin-top: 25px;
-    border: 1px solid orange;
+  width: 960px;
+  margin: 0px auto; /*centrar*/
+  margin-top: 25px;
+  border: 1px solid orange;
 }
 
 #header {
-    width: 100%;
-    height: 90px;
-    background-color: red;
-    color: white;
-    text-align: center;
-    line-height: 80px;
+  width: 100%;
+  height: 90px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  line-height: 80px;
 }
 .clearfix {
-    foat: none;
-    clear: both;
+  foat: none;
+  clear: both;
 }
 
 #menu {
-    background-color: #3Af;
+  background-color: #3af;
 }
 
 #menu ul li {
-    display: block;
-    float: left;
-    border-right: 1px solid black;
+  display: block;
+  float: left;
+  border-right: 1px solid black;
 }
 
 #menu ul li a {
-    display: block;
-    padding: 15px;
-    color: orange;
-
+  display: block;
+  padding: 15px;
+  color: orange;
 }
 
-#menu ul li:hover{
-    background: rgb(16, 80, 150);
+#menu ul li:hover {
+  background: rgb(16, 80, 150);
 }
 
-#menu ul li a:hover{
-    color: white;
+#menu ul li a:hover {
+  color: white;
+}
+
+p {
+  text-align: center;
 }
