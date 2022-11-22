@@ -49,6 +49,85 @@
   color: white;
 }
 
-p {
+#contenido {
+  width: 80%;
+  float: left;
+}
+
+#lateral {
+  width: 29%;
+  border: 1px solid red;
+  float: left;
+  min-height: 400px;
+  max-height: 500px;
   text-align: center;
+  overflow-y: scroll;
+
+}
+
+#contenido h2 {
+  text-align: center;
+  border-bottom: 2px solid green;
+  padding: 25px;
+  color: orange;
+  text-shadow: 2px 2px 4px  gray; /*sombras */
+
+
+}
+
+#contenido .caja {
+  position: relative;
+  width: 40%;
+  height: 25px;
+  background-color: brown;
+  border: 1px solid black;
+  color: white;
+  float: left;
+  margin: 20px;
+  text-align: center;
+  box-shadow: 5px 5px 10px red;
+  border-radius: 5px 10px 4px  30px;
+
+
+}
+
+/* sombra-interior {
+ box-shaow: 0px 0px 20px inet
+} */
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-top: red;
+  line-height: 50px;
+}
+
+.libre {
+  position: absolute;
+  top: 250px;
+  line-height: 80px;
+  background-color: red;
+  color: white;
+  width: 80px;
+  height: 80px;
+  border: 2px solid black;
+}
+.libre1 {
+  z-index: 101;
+}
+
+.libre2 {
+  top: 230px;
+  left: 30%;
+  z-index: 102;
+}
+
+.fija {
+  position: fixed;
+  top: 50%;
+  left: 30%;
+  background: blue;
 }
