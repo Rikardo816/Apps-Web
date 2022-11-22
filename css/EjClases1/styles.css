@@ -91,4 +91,55 @@ px respecto a la pantalla del dispositivo
 
 Porcentajes
 
+colores  revisar en la documentacion
+
+
+MODELOS DE CAJAS
+cuadno insertas una etiqueta html se crea una caja de forma automatica llamada boxmodel
+CADA ETIQUETA ES UNA CAGITA
+
+las partes de una caja 
+contenido (content)
+relleno (padding)
+borede (boreder)
+imagen de fondo (backgroun-image)
+color de fondo (bacgroun-color)
+marge (margin) separacion entre la caja y el resto de cajas adyacentes el relleno y margen son transparentes
+
+ALTURA
+heigth
+main - maxl -
+
+ANCHURA
+width
+MARGEN
+margin-top, margin-bottom, margin-left, margin-right
+
+RELLENO 
+padding-top, paddin-ottom, padding-right, padding-left
+
+BORDES
+border 
+
+
+*/
+
+
+div {
+  width: 300px;
+  padding-left: 50px;
+  padding-right: 30px;
+  margin-left: 80px;
+  margin-right: 30px;
+  border: 5px solid black;
+}
+
+/*
+FONDOS
+backgron-color
+backgroud-image -> url
+
+
+POSICIONAMIENTO
+psition-
 */
