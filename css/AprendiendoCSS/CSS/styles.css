@@ -1,0 +1,178 @@
+/* Selector de ids */
+#titulo {
+  color: blue;
+}
+
+/* Selector de clase */
+p.especial {
+  color: mediumseagreen;
+}
+
+p.texto {
+  /* a todas las etiquetas de p y que tengan las clases texto */
+  color: palevioletred;
+}
+
+/* Selector de etiquetas que contienen hijos */
+div p {
+  color: aquamarine;
+}
+
+div h2,
+div h3 {
+  color: brown;
+}
+
+/* Aplica las propiedades siempre que no hayan sido definidas antes */
+* {
+  font-size: 24px;
+  /* color: black; */
+}
+
+.color {
+  /* color: gold; */
+  /* color: rgb(255,0,0); */
+  /* border: 5px red outset; */
+  border-style: solid;
+  border-color: blue;
+  border-radius: 5px;
+  /* border-width: 2em; Dos veces el tamaño de la fuente que se está usando actualmente */
+  border-width: 2px;
+}
+
+#fondo {
+  background-color: rgba(255, 0, 0);
+  /* opacity: 0.3; */
+  background-image: url("coffee.png");
+  height: 300px;
+  /*   background-repeat: repeat-y;
+  background-position: center top; */
+  background: red url("coffee.png") repeat-y center top;
+  background-size: 100px 100px;
+}
+
+.margen {
+  background-color: chocolate;
+  margin: 15px 20px 25px 30px;
+  padding: 30px 25px 20px 15px;
+  border: solid 5px black;
+  height: 100px;
+  width: 50px;
+  overflow: hidden; /* Todo el contenido lo mete dentro del box */
+  overflow: scroll; /* Mete un scroll dentro del box */
+  outline: 2px solid red;
+}
+
+.text {
+  font-family: "Chivo Mono", monospace;
+  text-align: center;
+  text-decoration: overline;
+  text-shadow: 3px 5px 5px blue;
+}
+
+a:link {
+  /* Seleccionamos cuando el link no ha sido visitado */
+  color: blueviolet;
+  text-decoration: none;
+}
+
+a:visited {
+  color: gray;
+}
+
+a:hover {
+  color: yellow;
+}
+
+a:active {
+  color: red;
+}
+
+ul {
+  background-color: aquamarine;
+  list-style-type: circle; /* Quitamos los puntos molestos ojo con el padin de 40px */
+  /* padding-left: 0px; */
+  /* list-style-position: inside; */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse; /* para que no haya separacion en las celdas */
+}
+
+th,
+td {
+  border: solid 1px #eee;
+  padding: 5px;
+}
+
+th {
+  background-color: tomato;
+  color: white;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  /* Donde odd es PAR y even es IMPAR */
+  background-color: #eee;
+}
+
+tr:hover {
+  background-color: #aaa;
+  cursor: pointer;
+}
+
+span {
+  display: block;
+  /* display: none; */
+  /* visibility: hidden; */
+  max-width: 300px;
+  background-color: #f00;
+}
+
+.inline {
+  display: inline;
+}
+
+#position {
+  position: sticky;
+  left: 20px;
+  top: 25px;
+}
+
+.left {
+  float: left;
+  width: 200px;
+  height: 200px;
+}
+
+.right {
+  float: right;
+}
+
+.container {
+  height: 200px;
+}
+
+.column {
+  border: solid 0 #ddd;
+  border-radius: 5px;
+  margin: 0;
+  padding: 10px 0;
+  width: 33.3%;
+}
+
+.inline-block {
+  display: inline-block; /* Para menus de navegacion de esta manera se les pone un ancho fijo */
+  height: 55px;
+  background-color: red;
+}
+
+.center {
+  padding: 50px 0;
+  text-align: center;
+  /* Para centrar un elemento siempre tenemos que asignarle un ancho y este no puede de ser de 100% tiene que ser menor al 100% */
+  width: 200px;
+  margin: 0 auto;
+  background-color: aqua;
+}
