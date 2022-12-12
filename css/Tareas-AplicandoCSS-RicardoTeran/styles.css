@@ -122,3 +122,36 @@ footer a {
 footer a:hover {
   color: #6ECCAF;
 }
+
+/* Responsive */
+@media (max-width:720px){
+  iframe {
+    width: 400px;
+    margin: 20px auto;
+  }
+  article {
+    height: auto;
+  }
+  article img {
+    width: 400px;
+
+  }
+  article p {
+    display: inline-block;
+    float: none;
+    padding: 15px 10px;
+    text-align: justify;
+  }
+
+  .cartas {
+    display: inline-block;
+  }
+
+
+}
+
+@media (max-width:400px) {
+  iframe {
+    width: 250px;
+  }
+}
