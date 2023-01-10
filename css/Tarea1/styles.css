@@ -1,0 +1,31 @@
+/* Aqui pondremos todo el css de la pagaina */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.cabecera {
+    background: #22A39F;
+    color: #222222;
+    width: auto;
+    text-align: center;
+    border: solid 1px black;
+}
+
+#cuerpo {
+    background: white;
+    color: #434242;
+}
+
+
+
+footer {
+    background: #22A39F;
+    color: #222222;
+    width: auto;
+    text-align: center;
+    border: solid 1px black;
+}
+
