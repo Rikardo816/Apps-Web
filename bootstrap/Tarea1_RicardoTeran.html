@@ -4,17 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Turismo en Ecuador</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Document</title>
   </head>
   <body>
-    <header>
+    <header class="text-center bg-warning">
       <h1>Turismo en Ecuador</h1>
       <h6 class="h6">Gastronomía, herramienta para reactivar el turismo en el Ecuador</h2>
     </header>
@@ -24,8 +18,9 @@
         <article class="col-md">
           <img
             src="https://www.turismo.gob.ec/wp-content/uploads/2020/07/IMG_0033-scaled.jpg"
-            class="card-img-top"
             alt=""
+            class="img-fluid"
+            style="width: 400px;"
           />
           <p>
             Guayaquil, Guayas. 02.07.2020).- Una exquisita variedad de aromas,
@@ -42,10 +37,12 @@
           </p>
         </article>
         <br />
-        <article>
+        <article class="col-md">
           <img
             src="https://th.bing.com/th/id/OIP.JEmeoXT09U55AaxzaGCadAHaE7?pid=ImgDet&rs=1"
             alt=""
+            class="img-fluid"
+            style="width: 400px;"
           />
           <p>
             Los restaurantes y cafeterías instauraron protocolos de
@@ -81,7 +78,9 @@
           reinventar los negocios”.
         </p>
         <br />
-        <iframe
+        
+        <div class="text-center">
+          <iframe
           width="560"
           height="315"
           src="https://www.youtube.com/embed/pJqLn2wn_QA"
@@ -89,7 +88,8 @@
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
-        ></iframe>
+          ></iframe>
+        </div>
         <p>
           En esta misma provincia, en el cantón Babahoyo, el Gobierno Provincial
           también inauguró la denominada “Plaza Bahía”. Se trata de un patio de
@@ -117,8 +117,8 @@
           nacionales y locales.
         </p>
       </section>
-      <section class="cartas">
-        <div>
+      <section class="row">
+        <div class="col">
           <h2>Las mejores comidas que puedes encontrar en Guayaquil son:</h2>
           <ul>
             <li>Encebollado</li>
@@ -130,7 +130,7 @@
           </ul>
         </div>
 
-        <div>
+        <div class="col">
           <h2>
             Los lugares los que puedes disfrutar de una buena gastronomia son:
           </h2>
@@ -161,7 +161,7 @@
       </section>
     </div>
 
-    <footer>
+    <footer class="text-center bg-warning">
       <cite
         >https://www.turismo.gob.ec/wp-content/uploads/2020/07/IMG_0033-scaled.jpg</cite
       >
@@ -174,5 +174,8 @@
         >
       </p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
   </body>
-</html>
+  </html>
+  
